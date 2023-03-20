@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: arial;
+}
+
+body {
+    background-color: rosybrown;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+button {
+    padding: 3rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border: none;
+}
+button:hover {
+    background-color: #555;
+}
+
